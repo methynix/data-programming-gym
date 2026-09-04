@@ -25,7 +25,7 @@ The goal of this repository is simple:
 
 **Learn → Practice → Experiment → Break Things → Fix Things → Repeat.**
 
-This is my personal coding gym where consistency matters more than perfection.
+This is my personal coding gym where consistency matters more than perfection.(You can refer to the other repositories i started one week earlier eg revenue-leakage and fraud-detection)
 
 ## 🚀 Progress
 
@@ -36,3 +36,4 @@ as I progress through my Data Science and Machine Learning journey.
 
 *"The best way to learn Machine Learning is by training models...
 and occasionally wondering why the accuracy is 12%."* 😭(hahaha)
+HELEN METHOD JAMES ,THE CEO OF METHYNIX

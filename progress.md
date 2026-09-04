@@ -1,0 +1,2 @@
+# 4/9/2026
+Today i have started with a challenge to explore from data analysis to making  a very small model trained . I am going to act as a junior Data Analyst working for an education company. They collected data about students and want to understand, what factors affect a student's final exam score, and can we predict the score of a new student? Let's dive in to the end ....I'm gonna call it performance predictor(performance-predictor.py )
