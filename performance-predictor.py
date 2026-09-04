@@ -16,5 +16,16 @@ print("The description")
 print(df.describe())
 
 #checking for missing values and duplicate rows
-print(f"Total missing values {df.isnull.sum()}")
-print(f"Total duplicate values {df.duplicated.sum()}")
+print(f"Total missing values {df.isnull().sum()}")
+print(f"Total duplicate values {df.duplicated().sum()}")
+
+#the variable likely to influence the final_score is attendance(by just looking, not yet calculated)
+#but anyways, let us drop the duplicates and replace null values with something suitable
+
+#before, i can maybe check the variance so that i can know what replacer to use
+
+df["attendance"]=df["attendance"].fillna(df["attendance"].mean())
+df["sleep_hours"]=df["sleep_hours"].fillna(df["sleep_hours"].mean())
+df["assignments_completed"]=df["assignments_completed"].fillna(df["assignments_completed"].mean())
+
+df.drop_duplicates()
